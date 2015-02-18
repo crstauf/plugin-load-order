@@ -1,0 +1,23 @@
+#wpbody-content h2 { line-height: 29px; }
+
+#wpbody-content h2 > .spinner {
+	position: relative;
+	top: 3px;
+	float: none;
+}
+
+#wpbody-content ul {
+	width: 30%;
+	min-width: 300px;
+	list-style: none;
+}
+
+#wpbody-content ul > li {
+	padding: 5px 10px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	white-space: nowrap;
+	cursor: move;
+}
+
+	#wpbody-content ul > li + li { margin-top: 2px; }
